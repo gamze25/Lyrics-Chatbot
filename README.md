@@ -5,26 +5,26 @@ Günlük hayatta çok sık aklıma rastgele şarkı sözleri geliyor ve bunları
 
 ---
 
-## 🧠 RAG Pipeline Adımlarım
+##  RAG Pipeline Adımlarım
 
 1. **Veri Toplama:**  
-   Hugging Face’ten alınan `SpartanCinder/song-lyrics-artist-classifier` veri seti kullanılır.  
-   (13.596 şarkı sözü içerir 🎵)
+   Hugging Face’ten alınan `SpartanCinder/song-lyrics-artist-classifier` veri setini kullandım.
+ 
 
 2. **Belge Dönüştürme:**  
-   Her satır `Document` formatına çevrilir (`lyrics`, `artist`, `song`).
+   Her satırı `Document` formatına çevidim (`lyrics`, `artist`, `song`).
 
 3. **Embedding Oluşturma:**  
-   `sentence-transformers/all-mpnet-base-v2` modeli ile semantik vektörler oluşturulur.
+   `sentence-transformers/all-mpnet-base-v2` modeli ile semantik vektörler oluşturdum.
 
 4. **Vektör Depolama:**  
-   Tüm embeddingler **ChromaDB** veritabanında saklanır.
+   Tüm embeddingleri ChromaDB veritabanında sakladım
 
 5. **Benzerlik Arama (Retriever):**  
-   Girilen şarkı sözüne en çok benzeyen 3 şarkı getirtilir.
+   Girilen şarkı sözüne en çok benzeyen 3 şarkıyı getirttim.
 
 6. **Cevap Üretimi:**  
-   Google **Gemini 2.0 Flash** modeli kullanılarak Türkçe, samimi ve kısa bir yanıt üretilir.
+   Google Gemini 2.0 Flash modeli kullanılarak Türkçe, samimi ve kısa bir yanıt üretir.
 
 ---
 
