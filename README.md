@@ -27,6 +27,10 @@ Günlük hayatta çok sık aklıma rastgele şarkı sözleri geliyor ve bunları
    Google Gemini 2.0 Flash modeli kullanılarak Türkçe, samimi ve kısa bir yanıt üretir.
 
 ---
+## Chatbot Linki:
+https://9fa8266f92897c54f1.gradio.live
+
+---
 
 ## Collab dosya linkim:
 https://colab.research.google.com/drive/1pliN2AxVnploPGQVfvNJAtwIFxchLanp?usp=sharing
@@ -35,7 +39,7 @@ https://colab.research.google.com/drive/1pliN2AxVnploPGQVfvNJAtwIFxchLanp?usp=sh
 1. “Runtime > Run all” diyerek tüm hücreleri çalıştır.  
 2. En alttaki hücre Gradio arayüzünü başlatır.  
 3. Aşağıdaki gibi bir link göreceksin:  
-
+https://9fa8266f92897c54f1.gradio.live
 4. Bu bağlantıya tıklayarak **chatbot arayüzünü** açabilirsin.  
 5. Arayüzde bir şarkı sözü gir → sistem sana **en benzer 3 şarkıyı** getirir.  
 
