@@ -1,5 +1,5 @@
 # Lyrics-Chatbot
-# Şarkı Bulma Chatbotu
+# Aradığın Şarkıyı Bulan Chatbot
 
 Günlük hayatta çok sık aklıma rastgele şarkı sözleri geliyor ve bunların hangi şarkıya ait olduğunu kolaylıkla hatırlayamıyorum. Bu sorunu benim gibi birçok kişinin de yaşadığını biliyorum bu yüzden projemde bu soruna yer vermek istedim. Oluşturduğum chatbot'a herhangi bir şarkı sözü girildiğinde yanıt olarak yüklediğim veri setinden yararlanarak o sözlerin hangi şarkıya ait olduğunu ve sanatçının ismini bize veriyor. Veri setimi hugging face üzerinden araştırıp buldum. 
 
