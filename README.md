@@ -2,6 +2,7 @@
 # Şarkı Bulma Chatbotu
 
 Günlük hayatta çok sık aklıma rastgele şarkı sözleri geliyor ve bunların hangi şarkıya ait olduğunu kolaylıkla hatırlayamıyorum. Bu sorunu benim gibi birçok kişinin de yaşadığını biliyorum bu yüzden projemde bu soruna yer vermek istedim. Oluşturduğum chatbot'a herhangi bir şarkı sözü girildiğinde yanıt olarak yüklediğim veri setinden yararlanarak o sözlerin hangi şarkıya ait olduğunu ve sanatçının ismini bize veriyor. Veri setimi hugging face üzerinden araştırıp buldum. 
+
 ---
 
 ## 🧠 RAG Pipeline Adımlarım
@@ -34,3 +35,28 @@ https://colab.research.google.com/drive/1pliN2AxVnploPGQVfvNJAtwIFxchLanp?usp=sh
 1. “Runtime > Run all” diyerek tüm hücreleri çalıştır.  
 2. En alttaki hücre Gradio arayüzünü başlatır.  
 3. Aşağıdaki gibi bir link göreceksin:  
+
+4. Bu bağlantıya tıklayarak **chatbot arayüzünü** açabilirsin.  
+5. Arayüzde bir şarkı sözü gir → sistem sana **en benzer 3 şarkıyı** getirir.  
+
+---
+
+## Kullanılan Teknolojiler  
+
+| Alan | Teknoloji |
+|------|------------|
+| LLM | Google Gemini 2.0 Flash |
+| Framework | LangChain |
+| Embedding | Hugging Face (all-mpnet-base-v2) |
+| Vektör Veritabanı | ChromaDB |
+| Arayüz | Gradio |
+| Geliştirme Ortamı | Google Colab |
+| Veri Seti | SpartanCinder/song-lyrics-artist-classifier |
+
+---
+
+## Proje Yapısı  
+Lyrics-Chatbot/
+├── lyricschatbot.ipynb # Ana Colab not defteri
+├── requirements.txt # Kütüphaneler listesi
+├── README.md # Proje açıklaması
