@@ -1,7 +1,7 @@
 # Lyrics-Chatbot
-# Aradığın Şarkıyı Bulan Chatbot
+# Aradığın İngilizce Şarkıyı Bulan Chatbot
 
-Günlük hayatta çok sık aklıma rastgele şarkı sözleri geliyor ve bunların hangi şarkıya ait olduğunu kolaylıkla hatırlayamıyorum. Bu sorunu benim gibi birçok kişinin de yaşadığını biliyorum bu yüzden projemde bu soruna yer vermek istedim. Oluşturduğum chatbot'a herhangi bir şarkı sözü girildiğinde yanıt olarak yüklediğim veri setinden yararlanarak o sözlerin hangi şarkıya ait olduğunu ve sanatçının ismini bize veriyor. Veri setimi hugging face üzerinden araştırıp buldum. 
+Günlük hayatta çok sık aklıma rastgele şarkı sözleri geliyor ve bunların hangi şarkıya ait olduğunu kolaylıkla hatırlayamıyorum. Bu sorunu benim gibi birçok kişinin de yaşadığını biliyorum bu yüzden projemde bu soruna yer vermek istedim. Oluşturduğum chatbot'a herhangi bir İngilizce şarkı sözü girildiğinde yanıt olarak yüklediğim veri setinden yararlanarak o sözlerin hangi şarkıya ait olduğunu ve sanatçının ismini bize veriyor. Veri setimi hugging face üzerinden araştırıp buldum. 
 
 <img width="1325" height="643" alt="image" src="https://github.com/user-attachments/assets/e00ccdae-317e-4751-a6e4-be71eae62844" />
 
@@ -43,7 +43,7 @@ https://colab.research.google.com/drive/1pliN2AxVnploPGQVfvNJAtwIFxchLanp?usp=sh
 3. Aşağıdaki gibi bir link göreceksin:  
 https://9fa8266f92897c54f1.gradio.live
 4. Bu bağlantıya tıklayarak **chatbot arayüzünü** açabilirsin.  
-5. Arayüzde bir şarkı sözü gir → sistem sana **en benzer 3 şarkıyı** getirir.  
+5. Arayüzde bir şarkı sözü gir → sistem sana **en benzer 3 İngilizce şarkıyı** getirir.  
 
 ---
 
